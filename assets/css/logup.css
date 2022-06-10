@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/css/img/doctor_strange.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    padding: 30px;
+    transform: translateY(30%);
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+}
+
+.form_content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.label, .input, .button {
+    margin: 5px;
+}
+
+.label {
+    color: white;
+}
+
+.input {
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid SlateBlue; */
+    border: none;
+}
+
+.button {
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: MediumSeaGreen;
+    color: wheat;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: SlateBlue;
+    cursor: pointer;
+}

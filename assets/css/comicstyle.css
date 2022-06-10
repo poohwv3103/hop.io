@@ -1,0 +1,86 @@
+#comic-main {
+    background-color: #ccc;
+}
+
+#comic_header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    font-style: italic;
+    font-family: cursive;
+    background-color: #66ccff;
+
+}
+
+.images-comic {
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trangchu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+.fa-solid fa-arrow-right-from-bracket
+
+.btn-out:hover {
+    cursor: pointer;
+}
+
+.btn-out {
+    outline: none;
+    border: none;
+    height: 36px;
+    cursor: pointer;
+    color: #000;
+    margin-right: 4px;
+}
+
+.bottom_topout {
+    font-family: cursive;
+    background-color: #66ccff;
+
+}
+
+.reply {
+    font-family: cursive;
+}
+
+.cmt {
+    font-size: 24px;
+    font-family: cursive;
+}
+.cmt_input{
+    display: flex;
+   
+}
+.cmt_input_ii{
+    height:100px;
+    width: 400px;
+}
+.up{
+    height: 30px;
+    width: 82px;
+    margin-top: 20px;
+    margin-left: 16px;
+
+}
+.review {
+    display: flex;
+}
+.review-user{
+    margin-left: 12px;
+}
+.star{
+    margin-left: 12px;
+}
